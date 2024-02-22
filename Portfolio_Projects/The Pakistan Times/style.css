@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800&display=swap');
+/* Main Page */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.nav
+{
+    background-color: rgb(193, 191, 191);
+    border: 0.5px solid black;
+    display :flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align-items: center; */
+}
+.Main_heading
+{
+    font-family: 'Cairo Play', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+/* Secondray navbar */
+.nav_sec
+{
+    display: flex;
+    background-color: rgb(223, 222, 222);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    border: 0.1px solid black;
+}
+.nav_sec ul li
+{
+    display: inline;
+}
+.nav_sec ul li a
+{
+    padding: 0px 0.2vw;
+    text-decoration: none;
+    color: black;
+}
+/* Index Html main */
+.Main
+{
+    display: flex;
+}
+.LeftWindow_Content
+{
+    display: flex;
+    flex-direction: column;
+}
+/* Left Window */
+.LeftWindow
+{
+    background-color: rgba(246, 240, 240, 0.571);
+    border: 1px solid black;
+    border-radius: 1%;
+    min-height: 100vh;
+    width: 35vw;
+    margin-left: 0.1vw;
+    padding: 0vh 0.1vw;
+    height: auto;
+}
+.LeftWindow_Heding
+{
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.mini_box1
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h1
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt1
+{
+    font-size: 13px;
+}
+.mini_box2
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h2
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt2
+{
+    font-size: 13px;
+}
+.mini_box3
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h3
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt3
+{
+    font-size: 13px;
+}
+.mini_box4
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h4
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt4
+{
+    font-size: 13px;
+}
+.mini_box5
+{
+    margin: 0.1vh;
+    border: 0.1px solid gray;
+}
+.m_h5
+{
+    text-align: left;
+    font-weight: bold;    
+}
+.txt5
+{
+    font-size: 13px;
+}
+/* Right Window */
+.RightWindow
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(246, 240, 240, 0.571);
+    border: 1px solid black;
+    min-height: 100vh;
+    width: 65vw;
+}
+.RightWindow_Heading
+{
+    text-decoration: underline;
+    padding:1vh 0vh 0vh 1vw;
+}
+.RightArticle_Heading
+{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.RW_Main_Article
+{
+    margin: 1vh 0.6vw;
+}
+.Cold_Weather
+{
+    margin-left: 10vw;
+    width: 35vw;
+}
+/* footer */
+.footer
+{
+    border: 1px solid black;
+    background-color: rgba(246, 240, 240, 0.571);
+    text-align: center;
+    font-weight: lighter;
+}
+/* About Us Page! */
+.AR_Article
+{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.AboutMain_Heading
+{
+    margin: 1vh 2vw;
+    flex-grow: 3;
+    text-decoration: underline;
+}
+.AboutMain_Article 
+{
+    border-top: 0px;
+    border-bottom: 0px;    
+    border-left: 2px;
+    border-right: 2px;
+    border-style: dotted;
+    /* border-style: double; */
+    color: crimson;
+    margin-right: -32vw;
+    margin-left: 41vw;
+    flex-grow: 1;
+    justify-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+.AboutArticle_History
+{
+    display: flex;
+    flex-direction: column;
+}
+.AboutHistory_Heading
+{
+    margin: 1vh 2vw;
+    text-decoration: underline;
+}
+.History_Article
+{
+    margin-top: 2vh;
+    border-top: 0px;
+    border-bottom: 0px;    
+    border-left: 2px;
+    border-right: 2px;
+    border-style: dotted;
+    /* border-style: double; */
+    color: rgb(0, 115, 19);
+    margin-right: -32vw;
+    margin-left: 41vw;
+    flex-grow: 1;
+    justify-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* Contact Us! */
+.ContactMain_Heading
+{
+    margin-left: 2vw;
+}
+.ContactMain_EC
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: red;
+    
+}
+.ContactEmail_Heading
+{
+    margin-left: -219px;
+    margin-bottom:-18px;
+}
+.ContactEmail
+{
+    margin-left: 0px;
+}
+.ContactCell_Heading
+{
+    margin-left: -219px;
+    margin-bottom:-18px;
+}
+.ContactCell
+{
+    margin-left: 0px;
+}
+.ContactQueryMain_Heading
+{
+    margin-left: 2vw;
+}
+.Query textarea
+{
+    margin-left: 30vw;
+    border: 1px solid red;
+    padding: 1vh 0vw 0vh 1vw;
+}
+.SubmitButton
+{
+    margin-left: 0px;
+}

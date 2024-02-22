@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --theme: rgb(0, 30, 255);
+    --bg-theme: rgb(208, 212, 242) ;
+}
+.navbar
+{
+    font-family: 'Poor Story', system-ui;
+    list-style: none;    
+    background-color: var(--theme);
+    min-height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    border :1px solid black;
+    font-weight: 900;    
+}
+.Search
+{
+    height: 2vw;
+    width: 20vw;
+    margin-top: 1.5vw;
+   
+    padding-left: 1vw;
+}
+#SearchBtn
+{
+   
+    width: auto;
+    height: 25px;
+    background-image: url('/Web_development/Html/Css/Js/CSS/FinalProj/img/SearchIcon.png');
+
+}
+.navbar ul
+{
+    display: flex;
+    height: 3vw;
+    justify-content: end;
+    align-self: flex-end;
+    margin-right: 0.5vw;
+}
+.navbar ul li 
+{
+    padding: 0vh 0.5vw;
+    display: inline;
+}
+.navbar ul li a 
+{
+    color: aliceblue;
+    text-decoration: dashed;
+}
+
+body
+{
+    background-color: var(--bg-theme);
+}
+.slider
+{
+    
+    display: flex;
+    margin: 1vw auto 0vw auto;
+    box-shadow: 7px 5px 5px var(--theme) ;
+    /* border: 2px solid black; */
+    height: 27vw;
+    width: 90vw;    
+    animation: slide 10s ease-in-out  infinite alternate;
+}
+@keyframes slide {
+    0%
+    {
+        opacity: 10%;
+        background-image:url(/Web_development/Html\,Css\,Js/CSS/FinalProj/img/umrah.png) ;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 100%;
+    }
+    48%
+    {
+        opacity: 0%;
+        background-image:url(/Web_development/Html\,Css\,Js/CSS/FinalProj/img/Swis.jpeg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 70%;
+        opacity: 100%;
+        
+    }
+    95%
+    {
+        opacity: 0%;
+        
+        background-image:url(/Web_development/Html\,Css\,Js/CSS/FinalProj/img/Australia.jpeg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 100%;
+        
+    }
+}
+.FPackages
+{
+    padding-top:1vw; 
+    font-family: 'Poor Story', system-ui;
+}
+.CardStock
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+}
+.card1
+{
+    text-align: center;
+}
+.card2
+{
+    text-align: center;
+}
+.card3
+{
+    text-align: center;
+}
+.card4
+{
+    text-align: center;
+}
+.card5
+{
+    text-align: center;
+}
+

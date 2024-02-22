@@ -1,0 +1,44 @@
+/* Contact Main */
+.CMainContent
+{
+    margin-left: 35vw;
+}
+.CHeadEmail
+{
+    display: inline-block;
+    color:rgb(0, 30, 255);
+}
+.CMainEmail
+{
+    display: inline-block;
+    color:rgb(0, 30, 255);
+}
+.CHeadCell
+{
+    display: inline-block;
+    color:rgb(0, 30, 255);
+}
+.CMainCell
+{
+    display: inline-block;
+    color:rgb(0, 30, 255);
+}
+.CQueryHead
+{
+    text-decoration: underline;
+    margin-left: 1vw;
+}
+#CQueryTxt
+{
+    margin:0vw 0vw 0vw 34vw;
+    padding-left: 1vw;
+    color: rgb(0, 30, 255);
+    display: inline-block;
+}
+#QSubmit
+{
+    display: inline-block;
+    position: absolute;
+    top: 30vw;
+    left: 53vw;
+}

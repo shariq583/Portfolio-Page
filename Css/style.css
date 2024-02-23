@@ -18,11 +18,17 @@ body {
   }
 .nav_img
 {
-  width: 4vw;
-  height: 4vw;
+  width: 4%;
+  height: 4%;
   border: 1px solid white;
   border-radius: 70%;
 }  
+@media screen and (min-width:300px){
+  .nav_img{
+    width:10%;
+    height: 10%;
+  }
+}
 .navbar-brand
 {
   margin-left: 2vw;

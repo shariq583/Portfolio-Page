@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Protest+Revolution&display=swap");
+#heading {
+  text-align: center;
+  color: rgb(0, 49, 0);
+}
+body {
+  border: 2px solid black;
+  border-radius: 2%;
+  font-family: "Madimi One", sans-serif;
+}
+.num1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+}
+.num1 input {
+  border-color: green;
+  color: rgb(0, 49, 0);
+  width: 10vw;
+}
+.num2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+}
+.num2 input {
+  border-color: green;
+  color: rgb(0, 49, 0);
+  width: 10vw;
+}
+.opts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+}
+.opts select {
+  display: block;
+  margin: 1vw 10vw;
+  border-color: green;
+  color: rgb(0, 49, 0);
+}
+#btns {
+  display: flex;
+  justify-content: center;
+}
+#perform {
+  height: 5vw;
+  margin: 1vw;
+  border-color: green;
+  color: rgb(0, 49, 0);
+}
+#reset {
+  height: 5vw;
+  margin: 1vw;
+  border-color: green;
+  color: rgb(0, 49, 0);
+}
+hr {
+  color: rgb(0, 49, 0);
+  width: 25vw;
+  margin: 1px auto;
+}

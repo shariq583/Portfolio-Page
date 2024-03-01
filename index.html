@@ -1,86 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shariq Gazdar - Personal Website</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="Css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shariq Gazdar - Personal Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <img src="img/NavDp.jpg" alt="Dp" class="nav_img" />
+          <a class="navbar-brand" href="#">Shariq Gazdar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <section id="about" class="py-5 text-center">
       <div class="container">
-        <img src="img/NavDp.jpg" alt="Dp" class="nav_img">
-        <a class="navbar-brand" href="#">Shariq Gazdar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="row">
+          <div class="col">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Shariq Gazdar, an HTML/CSS expert with intermediate skills
+              in Bootstrap and JavaScript. I have 8 months of work experience in
+              web development and I'm passionate about creating responsive and
+              user-friendly websites.
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </section>
 
-  <section id="about" class="py-5 text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h2>About Me</h2>
-          <p>Hi, I'm Shariq Gazdar, an HTML/CSS expert with intermediate skills in Bootstrap and JavaScript. I have 8 months of work experience in web development and I'm passionate about creating responsive and user-friendly websites.</p>
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Projects</h2>
+            <p>
+              1.News Article :
+              <a
+                href="Portfolio_Projects/The Pakistan Times/index.html"
+                target="_blank"
+                >Click to visit!</a
+              >
+            </p>
+            <p>
+              2.Travel Web :<a
+                href="Portfolio_Projects/Travel Web/index.html"
+                target="_blank"
+                >Click to visit!</a
+              >
+            </p>
+            <p>
+              3.JS Calculator :<a
+                href="Portfolio_Projects/Js Calculator/index.html"
+                target="_blank"
+                >Click to visit!</a
+              >
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="portfolio" class="py-5 bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h2>Projects</h2>
-          <p>1.News Article : <a href="Portfolio_Projects/The Pakistan Times/index.html" target="_blank">Click to visit!</a></p>
-          <p>2.Travel Website :<a href="Portfolio_Projects/New folder/index.html" target="_blank">Click to visit!</a></p> 
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Contact Me</h2>
+            <p>
+              Email :<a href="mailto:gazdarshariq0@gmail.com"
+                >gazdarshariq0@gmail.com</a
+              ><br />Phone :<a href="tel:+92312-1120295">+92312-1120295</a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h2>Contact Me</h2>
-          <p>Email :<a href="mailto:gazdarshariq0@gmail.com">gazdarshariq0@gmail.com</a><br>Phone :<a href="tel:+92312-1120295">+92312-1120295</a></p>
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>&copy; 2024 Shariq Gazdar. All rights reserved.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>&copy; 2024 Shariq Gazdar. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>

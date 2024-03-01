@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Js Calculator</title>
+  </head>
+  <body>
+    <h1 id="heading">Simple Web Calculator</h1>
+    <form onsubmit="return false">
+      <hr />
+      <div class="num1">
+        <p>Enter Number one here :</p>
+        <input type="number" name="One" id="One" />
+      </div>
+      <hr />
+      <div class="opts">
+        <label for="Opt">Select a operation :</label>
+        <select
+          name="Plus"
+          id="Opt"
+          aria-placeholder="Operations"
+          placeholder="Enter Any opertaion"
+        >
+          <option value="Default">Select a operation</option>
+          <option value="Plus">Plus(+)</option>
+          <option value="Minus">Minus(-)</option>
+          <option value="Multiply">Multiply(*)</option>
+          <option value="Divide">Divide(/)</option>
+        </select>
+      </div>
+      <hr />
+      <div class="num2">
+        <p>Enter Number two here :</p>
+        <input type="number" name="Two" id="Two" />
+      </div>
+      <hr />
+      <div id="btns">
+        <button id="perform">Calculate!</button>
+        <input type="reset" value="reset" id="reset" />
+      </div>
+    </form>
+    <hr />
+    <div class="Answer num2">
+      <p>The Answer is :</p>
+    </div>
+    <hr />
+
+    <script src="script.js"></script>
+  </body>
+</html>

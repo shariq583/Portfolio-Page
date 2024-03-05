@@ -23,15 +23,17 @@ body {
 }
 .game {
   margin: 0 auto;
-  height: 85vmin;
+  height: 33vw;
   width: 60vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+
   justify-content: center;
 }
 .cell {
-  height: 18vmin;
+  height: 8vw;
+  width: 15vw;
   margin: 1vw;
   font-size: 3rem;
   border-radius: 5%;

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Pacifico&family=Protest+Revolution&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg-color: #026e61;
+  --txt-color: white;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+  font-family: "Pacifico", cursive;
+}
+.heading {
+  text-align: center;
+  text-decoration: underline;
+}
+.container {
+  height: 40vw;
+  width: 100vw;
+}
+.game {
+  margin: 0 auto;
+  height: 85vmin;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cell {
+  height: 18vmin;
+  margin: 1vw;
+  font-size: 3rem;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.713);
+  color: brown;
+  background-color: var(--txt-color);
+}
+.text {
+  font-weight: bold;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#resetBtn {
+  height: 5vw;
+  width: 7vw;
+  background-color: white;
+  color: brown;
+  font-weight: bold;
+  border-radius: 8%;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.713);
+  border: none;
+}
+.win {
+  font-size: larger;
+}

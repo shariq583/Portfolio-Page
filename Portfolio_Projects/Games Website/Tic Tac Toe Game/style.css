@@ -17,6 +17,11 @@ body {
   text-align: center;
   text-decoration: underline;
 }
+.text {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(191, 63, 63);
+}
 .container {
   height: 40vw;
   width: 100vw;
@@ -61,5 +66,7 @@ body {
   border: none;
 }
 .win {
-  font-size: larger;
+  margin: 5vw;
+  font-size: xx-large;
+  text-align: center;
 }

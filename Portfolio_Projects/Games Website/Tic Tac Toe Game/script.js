@@ -6,6 +6,7 @@ let resetBtn = document.querySelector("#resetBtn");
 var audio = new Audio("Audio/pop-39222.mp3");
 var sucAudio = new Audio("Audio/success-1-6297.mp3");
 let gameAudio = new Audio("Audio/game-music-loop-7-145285.mp3");
+let drawAudio = new Audio("Audio/game-over-arcade-6435(1).mp3");
 let winPattern = [
   [0, 1, 2],
   [0, 3, 6],
@@ -16,8 +17,9 @@ let winPattern = [
   [6, 4, 2],
   [6, 7, 8],
 ];
-let evt;
+
 gameAudio.play();
+
 gameBtns.forEach((box) => {
   box.addEventListener("click", () => {
     audio.play();
@@ -30,19 +32,22 @@ gameBtns.forEach((box) => {
       turnX = true;
       turnDisp.innerText = "X's Turn";
     }
-    // trunCheck();
     box.disabled = true;
-    winCheck(evt);
+    if (winCheck()) {
+      // Check for winner
+      for (const btn of gameBtns) {
+        btn.disabled = true;
+      }
+    } else if (drawCheck()) {
+      // Check for draw
+      drawAudio.play();
+      winDisp.innerText = "It's a Draw!";
+    }
   });
 });
+
 const winCheck = () => {
   for (const pattern of winPattern) {
-    console.log(pattern[0], pattern[1], pattern[2]);
-    console.log(
-      gameBtns[pattern[0]].innerText,
-      gameBtns[pattern[1]].innerText,
-      gameBtns[pattern[2]].innerText
-    );
     let pos1Val = gameBtns[pattern[0]].innerText;
     let pos2Val = gameBtns[pattern[1]].innerText;
     let pos3Val = gameBtns[pattern[2]].innerText;
@@ -50,13 +55,22 @@ const winCheck = () => {
       if (pos1Val == pos2Val && pos2Val == pos3Val) {
         sucAudio.play();
         winDisp.innerText = `Winner is ${pos3Val}`;
-        for (const btn of gameBtns) {
-          btn.disabled = true;
-        }
+        return true; // Return true if there's a winner
       }
     }
   }
+  return false; // Return false if there's no winner
 };
+
+const drawCheck = () => {
+  for (const btn of gameBtns) {
+    if (btn.innerText == "") {
+      return false; // Return false if there are still empty cells
+    }
+  }
+  return true; // Return true if all cells are filled
+};
+
 resetBtn.addEventListener("click", () => {
   location.reload();
 });

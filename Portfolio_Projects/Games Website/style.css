@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Pacifico&family=Protest+Revolution&display=swap");
+:root {
+  --bg-color: #17183b;
+  --se-color: #5c1767;
+}
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: var(--bg-color); */
+}
+body {
+  background-color: var(--bg-color);
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Madimi One", sans-serif;
+}
+#navBar {
+  background-color: #7f177d;
+  box-shadow: 3px 2px 8px black;
+}
+#navSec {
+  background-color: var(--se-color);
+}
+#mainGameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#TTT {
+  width: 40vw;
+  height: 40vw;
+}
+#TTT img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: contain;
+  box-shadow: 3px 2px 8px black;
+}
+#TTT a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+#RPS {
+  width: 40vw;
+  height: 40vw;
+}
+#RPS img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  box-shadow: 3px 2px 8px black;
+}
+#RPS a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+#TTT a:hover {
+  color: var(--se-color);
+}
+#RPS a:hover {
+  color: var(--se-color);
+}
+#TTT img:hover {
+  border: 2px solid #7f177d;
+}
+#RPS img:hover {
+  border: 2px solid #7f177d;
+}

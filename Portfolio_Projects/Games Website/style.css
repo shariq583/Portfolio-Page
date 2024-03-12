@@ -25,10 +25,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  flex-wrap: wrap;
 }
 #TTT {
   width: 40vw;
-  height: 40vw;
+  height: 20vw;
 }
 #TTT img {
   width: 20vw;
@@ -42,7 +44,7 @@ body {
 }
 #RPS {
   width: 40vw;
-  height: 40vw;
+  height: 20vw;
 }
 #RPS img {
   width: 20vw;
@@ -64,5 +66,25 @@ body {
   border: 2px solid #7f177d;
 }
 #RPS img:hover {
+  border: 2px solid #7f177d;
+}
+#NGG {
+  width: 40vw;
+  height: 20vw;
+}
+#NGG img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  box-shadow: 3px 2px 8px black;
+}
+#NGG a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+#NGG a:hover {
+  color: var(--se-color);
+}
+.my-5 img:hover {
   border: 2px solid #7f177d;
 }

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lilita One", cursive;
+  /* font-size: 1.5rem; */
+  background-color: #aebab3;
+}
+.center {
+  margin: 1vw 20vw;
+}
+nav {
+  background-color: #c5dac1;
+  height: 5vw;
+  line-height: 5vw;
+  border: 5px solid #599124;
+  border-radius: 2vw;
+}
+#mainHeading {
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  font-size: 3rem;
+}
+#convertArea {
+  margin: calc(10vw / 2) 25vw;
+  padding: 1.5vw 2vw;
+  border: 2px solid blue;
+  border-radius: 2vw;
+  background-color: #def2c8;
+}
+.from {
+  margin-bottom: 1.5vw;
+}
+.selectArea {
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  border: 1px solid blue;
+  background-color: rgb(220, 220, 255);
+}
+/* .formFlag {
+  width: 32px;
+  border: 1px solid black;
+} */
+.convertIcon {
+  margin: 1vw 20vw;
+  transform: scale(2);
+}
+.dropDown {
+  display: inline-block;
+  scale: 1.1;
+  padding: 1vw;
+}
+
+#msgTxt {
+  margin: 2vw 0vw;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#updateDate {
+  text-align: center;
+  font-size: 1rem;
+}
